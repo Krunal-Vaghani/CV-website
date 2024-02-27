@@ -13,19 +13,23 @@ h1 {
     margin: 50px auto 0px auto;
     font-family: 'Sacramento', cursive;
 }
+
 h2 {
     color: #66BFBF;
     font-size: 2.25rem;
     font-family: 'Montserrat', sans-serif;
 }
+
 h3 {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
+
 p {
     color: #40514E;
     line-height: 2;
 }
+
 hr {
     border-style: dotted none none;
     border-color: #EAF6F6;
@@ -40,16 +44,19 @@ hr {
     position: relative;
     padding-top: 100px;
 }
+
 .top-cloud {
     position: absolute;
     right: 300px;
     top: 40px;
 }
+
 .bottom-cloud {
     position: absolute;
     left: 250px;
     bottom: 300px;
 }
+
 .pro {
     text-decoration: underline;
 }
@@ -59,41 +66,56 @@ hr {
 .middle-container {
     padding-top: 25px;
 }
+
 .profile {
     padding: 2rem;
 }
+
 .krunal-image {
     border-radius: 100%;
     margin-top: 2rem;
 }
+
 .intro {
     margin: auto;
     width: 30rem;
     line-height: 2;
 }
+
 .skills {
     padding: rem;
 }
+
 .skill-row {
     width: 40rem;
     margin: 6rem auto 6rem auto;
     text-align: left;
 }
-.skill1-img {
+
+.skill1-img,
+.skill3-img,
+.skill5-img,
+.skill7-img {
     width: 106px;
     float: left;
     margin-right: 2rem;
 }
-.skill2-img {
+
+.skill2-img,
+.skill4-img,
+.skill6-img,
+.skill8-img {
     width: 106px;
     float: right;
     margin-left: 2rem;
 }
+
 .contact-me {
     margin: auto;
     width: 40rem;
     padding-bottom: 2rem;
 }
+
 .btn {
     background: #11cdd4;
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -110,6 +132,7 @@ hr {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
+
 .btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -125,6 +148,14 @@ hr {
 .bottom-container {
     padding: 50px 0 20px;
     background-color: #66BFBF;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.bottom-container-links , .bottom-container-copyright{
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 .footer-link {
     color: #11999E;
@@ -135,8 +166,13 @@ hr {
 .footer-link:hover {
     color: #EAF6F6;
 }
+
 .copy-right {
+    display: flex;
+    justify-content: center;
     color: #EAF6F6;
     font-size: 0.75rem;
     padding: 20px 10px;
 }
+
+/* By Krunal Vaghani - https://github.com/Krunal-Vaghani */
